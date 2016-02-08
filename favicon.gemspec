@@ -1,4 +1,4 @@
-GEM::Specification.new do |gem|
+Gem::Specification.new do |gem|
   gem.name = gem.summary = 'Favicon'
   gem.version = '1.0.0'
   gem.require_path = 'favicon'
