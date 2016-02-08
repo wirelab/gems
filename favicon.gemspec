@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = gem.summary = 'favicon'
-  gem.version = '1.0.0'
+  gem.version = '1.0.1'
   gem.require_path = 'favicon'
   gem.files = `git ls-files favicon`.split("\n")
   gem.authors = ["Tim Peters"]
