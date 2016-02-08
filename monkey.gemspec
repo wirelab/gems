@@ -1,5 +1,5 @@
 Gem::Specification.new do |gem|
-  gem.name = gem.summary = 'Monkey'
+  gem.name = gem.summary = 'monkey'
   gem.version = '1.0.0'
   gem.require_path = 'monkey'
   gem.files = `git ls-files monkey`.split("\n")

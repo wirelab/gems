@@ -1,5 +1,5 @@
 Gem::Specification.new do |gem|
-  gem.name = gem.summary = 'Favicon'
+  gem.name = gem.summary = 'favicon'
   gem.version = '1.0.0'
   gem.require_path = 'favicon'
   gem.files = `git ls-files favicon`.split("\n")
