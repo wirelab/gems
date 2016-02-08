@@ -7,5 +7,6 @@ git 'https://d757f1404c0a06cbd569df1f1db31431c12cc25c@github.com/wirelab/gems.gi
   gem 'monkey'
   gem 'favicon'
   gem 'email_sanitizer'
+  gem 'secure_link'
 end
 ```
