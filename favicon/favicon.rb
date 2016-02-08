@@ -1,5 +1,6 @@
 require 'nokogiri'
 require 'httparty'
+require 'addressable'
 
 module Favicon
   class Fetcher
