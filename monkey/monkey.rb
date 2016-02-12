@@ -2,7 +2,7 @@ require 'mandrill'
 module Monkey
   class Mandrill
     def initialize(key:)
-      @client = Mandrill::API.new key
+      @client = ::Mandrill::API.new key
     end
 
     def send_template template, queue
