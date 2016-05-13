@@ -45,8 +45,9 @@ module Monkey
     end
 
     def send
-      @client.send_template @template, @queue
+      response = @client.send_template @template, @queue
       @queue.clear
+      response
     end
   end
 end
