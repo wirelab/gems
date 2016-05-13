@@ -28,6 +28,7 @@ module Monkey
       message = {
         to: to,
         merge_vars: merge_vars,
+        preserve_recipients: false
       }
       @client.messages.send_template template, [], message
     end
