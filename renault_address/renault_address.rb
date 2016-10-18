@@ -1,3 +1,4 @@
+require 'httparty'
 module RenaultAddress
   def self.config
     @config ||= Config.new
