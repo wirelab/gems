@@ -9,5 +9,6 @@ git 'https://d757f1404c0a06cbd569df1f1db31431c12cc25c@github.com/wirelab/gems.gi
   gem 'email_sanitizer'
   gem 'secure_link'
   gem 'renault_address'
+  gem 'instascrape'
 end
 ```
